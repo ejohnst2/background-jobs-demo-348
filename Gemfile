@@ -9,6 +9,10 @@ gem 'puma'
 gem 'rails', '5.2.3'
 gem 'redis'
 
+# install the sidekiq gem
+gem 'sidekiq'
+gem 'sidekiq-failures', '~> 1.0'
+
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'sassc-rails'
